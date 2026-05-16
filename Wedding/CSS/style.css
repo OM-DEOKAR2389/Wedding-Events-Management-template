@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+    --rw-btn-color: #fff;
+    --rw-btn-bg: #dc2626;
+    --rw-btn-border-color: #dc2626;
+    --rw-btn-hover-color: #fff;
+    --rw-btn-hover-bg: #bb2020;
+    --rw-btn-hover-border-color: #b01e1e;
+    --rw-btn-focus-shadow-rgb: 225, 71, 71;
+    --rw-btn-active-color: #fff;
+    --rw-btn-active-bg: #b01e1e;
+    --rw-btn-active-border-color: #a51d1d;
+    --rw-btn-disabled-color: #fff;
+    --rw-btn-disabled-bg: #dc2626;
+    --rw-btn-disabled-border-color: #dc2626;
+    --rw-btn-grey: #e6ecf7;
+}
+
+.nav-form {
+    width: 240px;
+}
+
+.navbtn1 {
+    background-color: var(--rw-btn-grey) !important;
+    color: #000 !important;
+}
+
+.navbtn2 {
+    background-color: var(--rw-btn-bg) !important;
+    color: #fff !important;
+}
+
+.navbtn2:hover {
+    background-color: var(--rw-btn-active-bg) !important;
+
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Images/Background/hero-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.submit-btn {
+    background-color: var(--rw-btn-bg) !important;
+    color: #fff !important;
+}
+
+.submit-btn:hover {
+    background-color: var(--rw-btn-active-bg) !important;
+
+}
+
+.location1 {
+    height: 350px;
+    background-image: url("../Images/Illustration/location-img-1.jpg");
+    background-size: 100% 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.location1:hover {
+    transform: scale(1.1);
+}
+
+.location2 {
+    height: 350px;
+    background-image: url("../Images/Illustration/location-img-2.jpg");
+    background-size: 100% 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+.location2:hover {
+    transform: scale(1.1);
+}
+.location3 {
+    height: 350px;
+    background-image: url("../Images/Illustration/location-img-3.jpg");
+    background-size: 100% 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+.location3:hover {
+    transform: scale(1.1);
+}
+.location4 {
+    height: 350px;
+    background-image: url("../Images/Illustration/location-img-4.jpg");
+    background-size: 100% 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+.location4:hover {
+    transform: scale(1.1);
+}
+.third-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.third-section-main {
+    width: 80%;
+}
+
+.fourth-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.fourth-section-main {
+    width: 81%;
+}
+
+.fifth-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.fifth-section-main {
+    width: 80%;
+}
+
+.fifth-section-main .card-title {
+    color: var(--rw-btn-bg);
+}
+
+.sixth-section {
+    background-image: url("../Images/Illustration/cta-img.jpg");
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sixth-section p {
+    color: #fff;
+    font-size: 50px;
+}
+
+.sixth-section button {
+    background-color: var(--rw-btn-color);
+    color: var(--rw-btn-border-color);
+}
+
+.sixth-section button:hover {
+    background-color: var(--rw-btn-active-color);
+}
+
+.footer {
+    width: 100%;
+    background-color: var(--rw-btn-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-main {
+    width: 90%;
+    margin-top: 60px;
+}
+
+.email {
+    color: var(--rw-btn-border-color);
+}
+
+.privacy {
+    color: var(--rw-btn-border-color);
+}
+
+@media(min-width:768px) {
+    .hero-text h1 {
+        font-size: 40px;
+    }
+}
+
+@media(min-width:992px) {
+    .hero-text h1 {
+        font-size: 60px;
+    }
+}
+
+@media(min-width:1440px) {
+    .hero-text h1 {
+        margin-top: -150px;
+    }
+}
